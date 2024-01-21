@@ -243,7 +243,7 @@ button {
   font-style: italic;
   line-height: 200%;
   inline-size: 75%;
-  padding-block-end: 1.5em;
+  margin-block-end: 1.5em;
 }
 
 .content__card {
@@ -317,7 +317,7 @@ button {
 }
 
 .content__list-item:not(:last-child) {
-  padding-block-end: 10px;
+  margin-block-end: 10px;
 }
 
 .content__list-item::before {

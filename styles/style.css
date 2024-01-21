@@ -196,7 +196,7 @@ button {
 }
 
 .content__text-block .content__paragraph:not(:last-child) {
-  padding-block-end: 1.5em;
+  margin-block-end: 1.5em;
 }
 
 .content__paragraph-link {

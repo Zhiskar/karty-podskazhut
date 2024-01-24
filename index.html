@@ -15,11 +15,13 @@
     <header class="header">
       <h1 class="heading content-section header__title">Карты подскажут</h1>
       <nav class="header__menu content-section">
-        <div class="header__logo">
-          <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
-            <use href="./images/logo.svg#logo"></use>
-          </svg>
-        </div>
+        <a>
+          <div class="header__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+              <use href="./images/logo.svg#logo"></use>
+            </svg>
+          </div>
+        </a>
         <ul class="header__theme-toggler">
           <li>
             <button
@@ -69,17 +71,22 @@
       </div>
       <figure class="content__figure">
         <picture>
-          <source srcset="./images/cards-1x.avif" type="image/avif" 1x />
-          <source srcset="./images/cards-1x.webp" type="image/webp" 1x />
-          <source srcset="./images/cards-2x.avif" type="image/avif" 2x />
-          <source srcset="./images/cards-2x.webp" type="image/webp" 2x />
+          <source
+            srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x"
+            type="image/avif"
+          />
+          <source
+            srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x"
+            type="image/png"
+          />
           <img
             class="content__picture"
-            src="
-          ./images/cards-1x.png,
-          ./images/cards-2x.png
-          "
-            alt="Изображение карты Обходные стратегии на столе. Рядом комнатное растение в горшке, айфон, шариковая ручка и коробка из под карт Обходные стратегии"
+            src="./images/cards-1x.png"
+            alt="Одна карта Обходные стратегии на столе. Рядом комнатное растение в горшке, айфон, шариковая ручка и коробка из под карт Обходные стратегии"
             loading="lazy"
           />
         </picture>
@@ -116,8 +123,6 @@
             косвенные. И часто именно такие неочевидные способы выдавали гораздо
             более интересные результаты, чем решения „в лоб“».
           </p>
-
-          <p />
         </blockquote>
         <p class="content__paragraph">
           Таким образом, колода Ино поощряет нас видеть препятствия не как
@@ -129,7 +134,7 @@
           фанаты Ино. Есть довольно симпатичные
           <a
             class="content__paragraph-link"
-            href=""
+            href="#0"
             target="_blank"
             rel="noopener noreferrer"
             >веб-сайты</a
